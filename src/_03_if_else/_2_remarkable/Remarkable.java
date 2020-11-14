@@ -16,10 +16,29 @@ String name = JOptionPane.showInputDialog("What is your name?");
 		// 3. In a pop-up, tell the user what is remarkable about that person. 
 //String  = "What is remarkable about that person?";
 /* if the name is mariene, print popup about mariene
- * else if the name is miranda ....
+ * else if the name is miranda ...
  * else if the name is jessica
  */
-	}y
+// where did the code store the name that the user entered?
+// ANSWER: string mariene.  No, look on line 15 ... its the variable 'name'
+// so let me show you how to use it in the 'if' test
+// or if you want to handle both upper and lower case
+
+// ok that's a good start.  lets work with it.  look at line 28 - I know it has a red
+// x but its good code.  lets use it in line 31
+// good ... now are all parentheses paired?....
+// good, now lets work on the popup
+
+//JOptionPane.showMessageDialog(null), mariene);	// for example
+//JOptionPane.showMessageDialog"null", "pop-up");
+
+		if (name.equalsIgnoreCase("mariene"))
+			JOptionPane.showMessageDialog(null, mariene);
+		else if (name.equalsIgnoreCase("miranda"))
+			JOptionPane.showMessageDialog(null, miranda);
+		else if (name.equalsIgnoreCase("jessica"))
+			JOptionPane.showMessageDialog(null, jessica);
+					}
 }
 
 /* ask for the person's name
