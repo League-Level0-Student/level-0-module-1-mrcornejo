@@ -28,11 +28,20 @@ String message = JOptionPane.showInputDialog("what is your secret message");
 		
 		// 3. Now use a pop-up to tell the NEXT user that they can only see the secret message 
 		//    if they can guess the passcode
-if (password.equalsIgnoreCase("Miri's"))
-	JOptionPane.showMessageDialog(null, "you can only see the secret messege if you gues the password");
-y
-		// 4. If their guess matches the password, show them the secret message
+// one equal sign = means "gets", two equal signs == means is the thing on the left of it the same as on the right
 
+	String userGuess = JOptionPane.showInputDialog(null, "you can only see the secret messege if you gues the password");
+//if (password.equalsIgnoreCase(userGuess));
+		// 4. If their guess matches the password, show them the secret message
+if (userGuess.equals( "MiRi's"))	// == only works for int, double, char, boolean ... this are "primitive" data types
+							// userGuess is what type? String is a class not a primitive type
+	JOptionPane.showMessageDialog(null, message);
+	
 		// 5. If the password does not match, pop-up "INTRUDER!!"
+else 
+	JOptionPane.showMessageDialog(null, "INTRUDER!!!");
 	}
+	// Hi Miranda.  Once I set students up with their VNCs, etc, I will check in with you.  Maybe do a review
+	// of some of the ideas you're learning here?  
+	//HOW is it going?  want me to help?
 }
