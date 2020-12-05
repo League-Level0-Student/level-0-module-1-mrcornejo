@@ -33,6 +33,21 @@ String message = JOptionPane.showInputDialog("what is your secret message");
 	String userGuess = JOptionPane.showInputDialog(null, "you can only see the secret messege if you gues the password");
 //if (password.equalsIgnoreCase(userGuess));
 		// 4. If their guess matches the password, show them the secret message
+	/*
+	 * Notice the pattern below
+	 * 
+	 * if (test condition) {
+	 * 		do this code here
+	 * 		the curly braces are important if you have several lines of code inside the 'if' or 'else'
+	 * }
+	 * else	 {	// test condition is false
+	 *      do this other code here
+	 *      and this
+	 * }
+	 * 
+	 * questions before we go back to riddler?
+	 * 
+	 */
 if (userGuess.equals( "MiRi's"))	// == only works for int, double, char, boolean ... this are "primitive" data types
 							// userGuess is what type? String is a class not a primitive type
 	JOptionPane.showMessageDialog(null, message);
