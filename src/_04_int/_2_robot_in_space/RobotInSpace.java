@@ -28,6 +28,10 @@ public class RobotInSpace implements KeyEventDispatcher {
 	private void moveRobot(int keyPressed) throws InterruptedException {
 		// 2. Print out the keyPressed variable and write down the numbers for
 		// each arrow key
+		
+		// I don't know if there is a technical problem here ... maybe
+		// go on to the next program??
+		System.out.println(keyPressed);  //try running this and
 
 		// 3. If the up arrow is pressed, move the Robot up the screen.
 

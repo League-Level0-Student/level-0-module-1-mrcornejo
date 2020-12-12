@@ -11,7 +11,7 @@ public class TheRiddler {
 	public static void main(String[] args) {
 
 		// 1. Make a variable to hold the score
-		int score = 20;
+		int score = 0;
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
 		String userGuess = JOptionPane.showInputDialog(null,"What can travel around the world while staying in a corner? ");
 		// 4. If they got the answer right, pop up "correct!" and increase the score by one
@@ -34,17 +34,31 @@ public class TheRiddler {
 				//NOW IT IS CORRECT!
 				//now add { } and the code inside the { }
 				//let's look at previous examples - can I show you?yes
-		{if (userGuess.equals("a stamp"))	// NO SEMICOLON after 'if' or after 'else'
-				
+		if (userGuess.equals("a stamp")) {	// NO SEMICOLON after 'if' or after 'else'
+		score++;		
+		}
 		// 5. Otherwise, say "wrong" and tell them the answer
-		else
+		else {
 			JOptionPane.showMessageDialog(null, "wrong");
 		}
+		
 		// 6. Add some more riddles
-		String  = JOptionPane.showInputDialog(null,""
+		// on the left of the equal sign ... here are your options:
+		// either make a new variable like String userGuess2
+		// or reuse the old variable userGuess.  if you reuse, then
+		// DON"T have the word String since you already told the computer
+		// it is a String!  ok go ahead...
+		String userGuess2  = JOptionPane.showInputDialog(null,"What has many keys but can't open a single lock? ");
+			if (userGuess.equals("a piano")) {
+				score++;
+			}
 		// 2. Make a pop up to show the score.
 				// it's 11:30.  can you save your work?yes can you scroll up for me  OK
-		}
-	}
+	// **** code on line 59 must be *inside* the 'main' method, not after it
+	//you could move line 57 } to below line 60
+	JOptionPane.showMessageDialog(null,score);
+	}  // this is the end of public static void main(String[] args) {
+	}  // this is the end of the class public class TheRiddler, OK?
 
-
+// can i help you fix the red x?  the code is not in a good spot...let me explain
+//
