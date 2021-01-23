@@ -1,3 +1,10 @@
+package _04_int._4_rocket_ship.rocket_ship;
+
+public class Rocket {
+
+}
+/*
+
 int x = 400; 
 int y = 600; 
 
@@ -35,3 +42,6 @@ void draw() {
     fill(#F8FA9F);
     ellipse(275,200,12,12);
 }
+
+
+*/
