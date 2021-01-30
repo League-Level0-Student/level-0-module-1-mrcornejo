@@ -34,4 +34,12 @@ void draw() {
     ellipse(750,120,12,12);
     fill(#F8FA9F);
     ellipse(275,200,12,12);
+    fill(#F8FA9F);
+    ellipse(500,30,12,12);
+    fill(#F8FA9F);
+    ellipse(500,300,12,12);
+    fill(#F8FA9F);
+    ellipse(180,460,12,12);
+    fill(#F8FA9F);
+    ellipse(530,460,12,12);
 }

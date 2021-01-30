@@ -6,45 +6,31 @@ public class MyAges {
 		/** This program will use loops to print all the ages you have been alive, 
 		 * from zero up to your current age. **/
 
-		// Make an int variable called age, to track how many times the loop has repeated
-		//        Start its value at zero.
+		/*
+		loop is for doing something repetitive.  there are two types of loops - 
+		while and for
 		
-		// Change the value of yourCurrentAge to match your age
+		this program will print your ages from 0 to your current age.
+		how old are you?14
+		 */
+		
 		int yourCurrentAge = 14;
-	
-		
-		//  WHILE LOOP. Start a while loop to repeat while age <= yourCurrentAge
-		{
-			public static void main (String args[])
+				
+		int age = 0;
+				
+		while ( age <= yourCurrentAge ) {
+			System.out.println(age);
+			age = age + 1; // age++
 			
-		
-			//  Print the age variable
-	{
-				int yourCurrentAge = 14;
-			//  Add one to the age variable
-		{
-			for(age=0; age<14; age+=1) {
-		//  End the while loop here
 		}
-		System.out.print(age);	
+		
+		for ( age = 0; age <= yourCurrentAge;age++) {
+					// age is loop control variable
+			System.out.println(age);
 		}
-		System.out.print("14");
-	}
-		//  Run the program. Did it print all your ages from 0 to your current age?
-		
-		/*** Now you are going to do the same thing, but this time use a for loop. 
-		 *   Notice how most of the information is the same, it is just written 
-		 *   in a different way.
-		 **/
-		
-		//  FOR LOOP. Start a for loop to repeat while age <= your age, like this:
-		//  for ( age=0; age <= yourAge; age +=1 ) {
-		
-			//  Print the age variable
-		
-		//  End the for loop here
-		
-		//  Run the program again. 		
-		//  Check that both loops printed the same numbers to the console
-	}
-}
+
+	
+	}	// method main
+	
+}	// class MyAges
+
